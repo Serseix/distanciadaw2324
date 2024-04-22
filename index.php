@@ -1,17 +1,17 @@
 
 <?php
 /**
- * Cuenta atrás desde un número dado.
+ * Cuenta regresiva desde un número dado.
  *
  * Esta función recibe un número entero y retorna una cuenta atrás desde ese número hasta 1.
  *
  * @param int $numero El número desde el cual se realizará la cuenta atrás.
  * @return string La cuenta atrás en formato de cadena de texto.
  * @author Sergio Sánchez Rodríguez
- * @version 1.0
+ * @version 2.0
  * @internal Esta función solo debe utilizarse internamente para propósitos de demostración.
  */
-function cuentaAtras($numero) {
+function cuentaRegresiva($numero) {
     $cuenta_regresiva = "";
     for ($i = $numero; $i >= 1; $i--) {
         $cuenta_regresiva .= $i . " ";
